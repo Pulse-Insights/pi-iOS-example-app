@@ -1,0 +1,67 @@
+# Xcode
+.DS_Store
+*.swp
+*.swo
+*.xcworkspace/
+xcuserdata/
+xcshareddata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcuserstate
+
+# DerivedData
+DerivedData/
+.idea/
+*.xcuserdatad/
+*.xcuserdatad/*
+*.xcuserstate
+
+# Build & Intermediate Files
+build/
+*.o
+*.d
+*.dia
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+/.swiftpm
+/Package.resolved
+/.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Firebase & Crashlytics
+firebase-debug.log
+GoogleService-Info.plist
+
+# Environment Files
+.env
+*.xcconfig
+
+# Archive Files
+*.xcarchive
+
+# Simulator Devices
+CoreSimulator/
+
+# User-specific
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.perspectivev3/
