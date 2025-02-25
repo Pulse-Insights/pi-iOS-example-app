@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oPX-x0-Cfz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oPX-x0-Cfz">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -35,7 +34,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MainPage" id="BYZ-38-t0r" customClass="MainViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainPage" id="BYZ-38-t0r" customClass="MainViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -197,7 +196,7 @@ Reset device UDID</string>
         <!--Help-->
         <scene sceneID="BNU-xu-ew9">
             <objects>
-                <viewController storyboardIdentifier="HelpPage" title="Help" id="UpU-5a-Ypg" customClass="HelpViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HelpPage" title="Help" id="UpU-5a-Ypg" customClass="HelpViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hdb-el-iVr"/>
                         <viewControllerLayoutGuide type="bottom" id="h5F-RR-3Qz"/>
@@ -237,7 +236,7 @@ Reset device UDID</string>
         <!--Setup Account ID-->
         <scene sceneID="qej-yL-ZRU">
             <objects>
-                <viewController storyboardIdentifier="SetupView" title="Setup Account ID" id="vz2-c1-leS" customClass="SetupAccountIdViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetupView" title="Setup Account ID" id="vz2-c1-leS" customClass="SetupAccountIdViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GIc-tQ-fUF"/>
                         <viewControllerLayoutGuide type="bottom" id="iAb-et-kjn"/>
@@ -355,7 +354,7 @@ E.g. PI-99999999</string>
         <!--Check if Answered-->
         <scene sceneID="Lq1-Hw-KcL">
             <objects>
-                <viewController storyboardIdentifier="CheckSurveyPage" title="Check if Answered" id="BHQ-YE-dnz" customClass="CheckViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CheckSurveyPage" title="Check if Answered" id="BHQ-YE-dnz" customClass="CheckViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Skq-g0-vZ9"/>
                         <viewControllerLayoutGuide type="bottom" id="HXd-bz-vzT"/>
@@ -481,7 +480,7 @@ E.g. PI-99999999</string>
         <!--Trigger Inline Survey-->
         <scene sceneID="hjW-1z-N95">
             <objects>
-                <viewController title="Trigger Inline Survey" id="Sar-IZ-GKW" customClass="InlineTestViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Trigger Inline Survey" id="Sar-IZ-GKW" customClass="InlineTestViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vx4-G6-SSP"/>
                         <viewControllerLayoutGuide type="bottom" id="1l7-iG-gIv"/>
@@ -695,7 +694,7 @@ E.g. PI-99999999</string>
                                                     <constraint firstAttribute="height" constant="4" id="OKb-XO-I2E"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDh-9k-Ptw" customClass="ClientKeyView" customModule="Pulse_Insights" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDh-9k-Ptw" customClass="ClientKeyView" customModule="PulseInsightDemoApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="577.5" width="343" height="200"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
@@ -740,7 +739,7 @@ E.g. PI-99999999</string>
         <!--Trigger a Survey-->
         <scene sceneID="v44-xH-xsS">
             <objects>
-                <viewController title="Trigger a Survey" id="x0r-VG-XHp" customClass="OtherTestSurveyViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Trigger a Survey" id="x0r-VG-XHp" customClass="OtherTestSurveyViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kfl-fX-cSM"/>
                         <viewControllerLayoutGuide type="bottom" id="fI3-Cr-bwz"/>
@@ -753,7 +752,7 @@ E.g. PI-99999999</string>
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gm2-z6-I1Q">
-                                        <rect key="frame" x="16" y="0.0" width="343" height="647"/>
+                                        <rect key="frame" x="16" y="0.0" width="343" height="908.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current View Name: MainActivity" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ib-nZ-wt2">
                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="19.5"/>
@@ -945,11 +944,25 @@ E.g. PI-99999999</string>
                                                     <constraint firstAttribute="height" constant="4" id="eWQ-x7-2um"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sSU-5t-tiJ" customClass="ClientKeyView" customModule="Pulse_Insights" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sSU-5t-tiJ" customClass="ClientKeyView" customModule="PulseInsightDemoApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="421.5" width="343" height="225.5"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="225.5" placeholder="YES" id="7fC-Bi-CW1"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1G-t3-KbL">
+                                                <rect key="frame" x="0.0" y="663" width="343" height="4"/>
+                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="4" id="fl7-e4-bFe"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rNq-65-r01" customClass="ContextDataView" customModule="PulseInsightDemoApp" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="683" width="343" height="225.5"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="225.5" placeholder="YES" id="AYF-in-Oyd"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -957,11 +970,11 @@ E.g. PI-99999999</string>
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="gm2-z6-I1Q" firstAttribute="top" secondItem="yUl-XW-99w" secondAttribute="top" id="6ch-fA-cS3"/>
                                     <constraint firstItem="yUl-XW-99w" firstAttribute="trailing" secondItem="gm2-z6-I1Q" secondAttribute="trailing" constant="16" id="ATN-e7-Ays"/>
                                     <constraint firstItem="bzu-1r-d7S" firstAttribute="trailing" secondItem="gm2-z6-I1Q" secondAttribute="trailing" constant="16" id="NXI-Tw-0Dh"/>
                                     <constraint firstItem="gm2-z6-I1Q" firstAttribute="leading" secondItem="yUl-XW-99w" secondAttribute="leading" constant="16" id="agv-kT-fMk"/>
-                                    <constraint firstItem="gm2-z6-I1Q" firstAttribute="top" secondItem="yUl-XW-99w" secondAttribute="top" id="lVG-RS-SCU"/>
-                                    <constraint firstItem="gm2-z6-I1Q" firstAttribute="bottom" secondItem="yUl-XW-99w" secondAttribute="bottom" id="sct-Vt-AvZ"/>
+                                    <constraint firstItem="gm2-z6-I1Q" firstAttribute="bottom" secondItem="yUl-XW-99w" secondAttribute="bottom" id="gGB-zB-8Rg"/>
                                     <constraint firstItem="gm2-z6-I1Q" firstAttribute="leading" secondItem="bzu-1r-d7S" secondAttribute="leading" constant="16" id="ugN-py-piV"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="yUl-XW-99w"/>
@@ -970,10 +983,10 @@ E.g. PI-99999999</string>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fI3-Cr-bwz" firstAttribute="top" secondItem="l16-qs-z07" secondAttribute="bottom" id="7mg-24-tcU"/>
                             <constraint firstAttribute="trailing" secondItem="l16-qs-z07" secondAttribute="trailing" id="C2c-qo-tPB"/>
                             <constraint firstItem="l16-qs-z07" firstAttribute="leading" secondItem="trJ-7m-eAZ" secondAttribute="leading" id="OPl-fc-6Ef"/>
                             <constraint firstItem="l16-qs-z07" firstAttribute="top" secondItem="kfl-fX-cSM" secondAttribute="bottom" id="hgX-9I-1QS"/>
+                            <constraint firstItem="fI3-Cr-bwz" firstAttribute="top" secondItem="l16-qs-z07" secondAttribute="bottom" id="zrO-RS-7N3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Trigger a Survey" largeTitleDisplayMode="always" id="M7p-g5-1WD"/>
@@ -991,7 +1004,7 @@ E.g. PI-99999999</string>
         <!--App Demo-->
         <scene sceneID="gMm-gt-ueK">
             <objects>
-                <viewController storyboardIdentifier="DemoPage" title="App Demo" id="Iq1-TB-wyW" customClass="AppDemoViewController" customModule="Pulse_Insights" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DemoPage" title="App Demo" id="Iq1-TB-wyW" customClass="AppDemoViewController" customModule="PulseInsightDemoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CyB-cl-33q"/>
                         <viewControllerLayoutGuide type="bottom" id="aHq-Cu-s30"/>
