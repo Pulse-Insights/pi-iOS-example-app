@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB2F18B82D6C5802001E8182 /* PulseInsights in Frameworks */ = {isa = PBXBuildFile; productRef = BB2F18B72D6C5802001E8182 /* PulseInsights */; };
+		BB2F1E7D2D6DA50E001E8182 /* PulseInsights in Frameworks */ = {isa = PBXBuildFile; productRef = BB2F1E7C2D6DA50E001E8182 /* PulseInsights */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2F18B82D6C5802001E8182 /* PulseInsights in Frameworks */,
+				BB2F1E7D2D6DA50E001E8182 /* PulseInsights in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			name = PulseInsightDemoApp;
 			packageProductDependencies = (
 				BB2F18B72D6C5802001E8182 /* PulseInsights */,
+				BB2F1E7C2D6DA50E001E8182 /* PulseInsights */,
 			);
 			productName = PulseInsightDemoApp;
 			productReference = BB2F189C2D6C52E1001E8182 /* PulseInsightDemoApp.app */;
@@ -114,7 +117,7 @@
 			mainGroup = BB2F18932D6C52E1001E8182;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BB2F18B62D6C5802001E8182 /* XCLocalSwiftPackageReference "../../../pi-ios-spm" */,
+				BB2F1E7B2D6DA50E001E8182 /* XCRemoteSwiftPackageReference "pi-ios-spm" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BB2F189D2D6C52E1001E8182 /* Products */;
@@ -345,16 +348,25 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		BB2F18B62D6C5802001E8182 /* XCLocalSwiftPackageReference "../../../pi-ios-spm" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../../pi-ios-spm";
+/* Begin XCRemoteSwiftPackageReference section */
+		BB2F1E7B2D6DA50E001E8182 /* XCRemoteSwiftPackageReference "pi-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Pulse-Insights/pi-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.9;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		BB2F18B72D6C5802001E8182 /* PulseInsights */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = PulseInsights;
+		};
+		BB2F1E7C2D6DA50E001E8182 /* PulseInsights */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB2F1E7B2D6DA50E001E8182 /* XCRemoteSwiftPackageReference "pi-ios-spm" */;
 			productName = PulseInsights;
 		};
 /* End XCSwiftPackageProductDependency section */
